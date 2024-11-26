@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="dashboard-header">
+    <h1>Perfume Generator Dashboard</h1>
+    <nav>
+      <a href="#affiliate-performance">Affiliates</a>
+      <a href="#products">Produkter</a>
+      <a href="#stats">Statistik</a>
+    </nav>
+  </header>
+  <main>
+    <section id="affiliate-performance" class="card">
+      <h2>Affiliate Performance</h2>
+      <p>Intäkter: <strong>15,000 SEK</strong></p>
+      <p>Klick: <strong>1200</strong></p>
+      <p>Försäljningar: <strong>45</strong></p>
+    </section>
+    <section id="products" class="card">
+      <h2>Rekommenderade Produkter</h2>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Vanilla Musk">
+        <p><strong>Vanilla Musk</strong></p>
+        <p>Pris: 299 SEK</p>
+        <button>Köp</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Citrus Breeze">
+        <p><strong>Citrus Breeze</strong></p>
+        <p>Pris: 399 SEK</p>
+        <button>Köp</button>
+      </div>
+    </section>
+    <section id="stats" class="card">
+      <h2>Statistik</h2>
+      <p>Kommande diagram här!</p>
+    </section>
+  </main>
+  <footer class="dashboard-footer">
+    <p>&copy; 2024 Perfume Generator. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
